@@ -9,7 +9,7 @@
 * [Fake SMTP](#Insatall-Fake-SMTP)
 
 <details>
-<summary>Insatall Fake SMTP</summary>
+<summary># Insatall Fake SMTP</summary>
 
 # Insatall Fake SMTP
 For this perpuse you can use any Fake SMTP service
