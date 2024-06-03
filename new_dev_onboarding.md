@@ -8,6 +8,9 @@
 * [MySQL DB]
 * [Fake SMTP](#Insatall-Fake-SMTP)
 
+<details>
+<summary>Insatall Fake SMTP</summary>
+
 # Insatall Fake SMTP
 For this perpuse you can use any Fake SMTP service
 
@@ -21,3 +24,4 @@ brew update && brew install mailhog
 ```sh
 MailHog
 ```
+</details>
