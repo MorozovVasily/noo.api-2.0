@@ -19,11 +19,11 @@ brew update && brew install mailhog
 MailHog
 ```
 
-<details>
+<!-- <details>
 <summary>Tips and Trics</summary>
 * Access GUI via http://localhost/phpmyadmin
 * CI via `/Applications/XAMPP/xamppfiles/bin/mysql -u root`
-</details>
+</details> -->
 
 </details>
 
