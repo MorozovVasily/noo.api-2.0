@@ -29,6 +29,7 @@ MailHog
 
 <details>
 <summary>Insatall MySQL DB</summary>
+
 # Insatall MySQL DB
 For example you can use [xampp](https://www.google.com/search?q=xampp)
 
@@ -36,6 +37,7 @@ For example you can use [xampp](https://www.google.com/search?q=xampp)
 
 <details>
 <summary>Backand</summary>
+
 # Download
 ```sh
 git clone https://github.com/sannnekk/noo.api-2.0
@@ -64,6 +66,7 @@ npm run dev
 </details>
 <details>
 <summary>Frontend</summary>
+
 ## Install:
 ```sh
 git clone https://github.com/sannnekk/noo.web
