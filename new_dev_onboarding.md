@@ -3,10 +3,10 @@
 * Frontend is here: https://github.com/sannnekk/noo.web
 # How to run locally
 ## You will need:
-Backand\
-Frontend\
-MySQL DB\
-Fake SMTP\
+* [Backand]
+* [Frontend]
+* [MySQL DB]
+* [Fake SMTP](#Insatall-Fake-SMTP)
 
 # Insatall Fake SMTP
 For this perpuse you can use any Fake SMTP service
