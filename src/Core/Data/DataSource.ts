@@ -13,6 +13,11 @@ import { AssignedWorkAnswerModel } from '@modules/AssignedWorks/Data/Relations/A
 import { AssignedWorkCommentModel } from '@modules/AssignedWorks/Data/Relations/AssignedWorkCommentModel'
 import { CourseRequestModel } from '@modules/CRM/Data/CourseRequestModel'
 import { CalenderEventModel } from '@modules/Calender/Data/CalenderEventModel'
+import { BlogPostModel } from '@modules/Blog/Data/BlogPostModel'
+import { BlogPostReactionModel } from '@modules/Blog/Data/Relations/BlogPostReactionModel'
+import { PollModel } from '@modules/Polls/Data/PollModel'
+import { PollQuestionModel } from '@modules/Polls/Data/Relations/PollQuestionModel'
+import { PollAnswerModel } from '@modules/Polls/Data/Relations/PollAnswerModel'
 
 export const CoreDataSource = new DataSource({
 	type: 'mysql',
@@ -36,6 +41,11 @@ export const CoreDataSource = new DataSource({
 		AssignedWorkCommentModel,
 		CourseRequestModel,
 		CalenderEventModel,
+		PollModel,
+		PollQuestionModel,
+		PollAnswerModel,
+		BlogPostReactionModel,
+		BlogPostModel,
 	],
 	subscribers: [],
 	migrations: [],

@@ -12,6 +12,11 @@ import { AssignedWorkAnswerModel } from '../../AssignedWorks/Data/Relations/Assi
 import { AssignedWorkCommentModel } from '../../AssignedWorks/Data/Relations/AssignedWorkCommentModel.js';
 import { CourseRequestModel } from '../../CRM/Data/CourseRequestModel.js';
 import { CalenderEventModel } from '../../Calender/Data/CalenderEventModel.js';
+import { BlogPostModel } from '../../Blog/Data/BlogPostModel.js';
+import { BlogPostReactionModel } from '../../Blog/Data/Relations/BlogPostReactionModel.js';
+import { PollModel } from '../../Polls/Data/PollModel.js';
+import { PollQuestionModel } from '../../Polls/Data/Relations/PollQuestionModel.js';
+import { PollAnswerModel } from '../../Polls/Data/Relations/PollAnswerModel.js';
 export const CoreDataSource = new DataSource({
     type: 'mysql',
     host: process.env.DB_HOST,
@@ -34,6 +39,11 @@ export const CoreDataSource = new DataSource({
         AssignedWorkCommentModel,
         CourseRequestModel,
         CalenderEventModel,
+        PollModel,
+        PollQuestionModel,
+        PollAnswerModel,
+        BlogPostReactionModel,
+        BlogPostModel,
     ],
     subscribers: [],
     migrations: [],
